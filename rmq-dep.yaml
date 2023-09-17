@@ -1,4 +1,4 @@
-apiVersion: app/v1 
+apiVersion: apps/v1 
 kind: Deployment 
 metadata: 
   name: vpromq01 
@@ -28,4 +28,3 @@ spec:
                   key: rmq-pass
             - name: RABBITMQ_DEFAULT_USER
               value: "guest"
-              
